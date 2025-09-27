@@ -18,7 +18,8 @@ const Header = () => {
         </nav>
       </div>
       <div className="flex items-center space-x-5">
-       
+        <input type="text"  placeholder="tim kiem" className="text-center rounded-sm"/>
+        <button className="text-white hover:bg-violet-600 p-1 border-slate-50 border-solid rounded-sm">Enter</button>
       </div>
     </div>
   );
